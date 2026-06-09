@@ -78,12 +78,6 @@
       "type": "int",
       "default": 16,
       "description": "Depth of FIFO buffers (RTL parameter `Depth`)."
-    },
-    {
-      "name": "ECC_TYPE",
-      "type": "enum",
-      "default": "SecdedHsiao",
-      "description": "SECDED error-correction scheme (a prim_secded library choice; selected by which prim_secded_* module is instantiated, not a single RTL parameter)."
     }
   ],
   "performance": {},
